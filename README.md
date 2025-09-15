@@ -62,8 +62,7 @@ gk auth login
 # Navigate to a git repo directory on your filesystem
 cd ./path/to/repo
 
-# Then create a Work Item and the current directory
-# will be automatically added to the Work Item
+# Create a Work Item - the current directory will be automatically added
 gk work create "My new work item"
 
 # Edit files...
