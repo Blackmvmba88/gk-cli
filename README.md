@@ -110,9 +110,13 @@ brew uninstall gitkraken-cli
 
 `gk` is available as a downloadable binary from the [releases page][].
 
-Download it from the [releases page][], unzip it, and add it to your binaries folder:
+Download it from the [releases page][], unzip it, and add it to your binaries folder.
+
+**Note:** The downloaded binary will have a platform-specific name, such as `gk-darwin-amd64` or `gk-linux-arm64`. You should rename it to `gk` before moving it to `/usr/local/bin`, or adjust the command below to use the actual filename.
 
 ```bash
+# Example if your downloaded file is named 'gk-darwin-amd64'
+mv ~/Downloads/gk-darwin-amd64 ~/Downloads/gk
 sudo mv ~/Downloads/gk /usr/local/bin/gk
 ```
 
