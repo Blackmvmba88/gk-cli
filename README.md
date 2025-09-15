@@ -17,7 +17,7 @@ GitKraken CLI is available on macOS, Windows, and Unix systems.
 
 ## Documentation
 
-`gk help` is going to be your best source for exploring the CLI. But also see the [workflows](#workflows) below.
+`gk help` is your best source for exploring the CLI. But also see the [workflows](#workflows) below.
 
 ```bash
 Welcome to GitKraken CLI, a premium CLI experience for managing multiple repositories with familiar GIT CLI commands
