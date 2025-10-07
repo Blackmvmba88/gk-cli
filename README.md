@@ -144,11 +144,10 @@ Try running `gk setup` again and then click "Open Anyway" to continue.
 
 ### Unix / Ubuntu
 
-`gk` is available as a downloadable binary from the [releases page][]. Once you have it, add it to your binaries folder:
+`gk help` is going to be your best source for exploring the CLI. But also see the [workflows](#workflows) below.
 
 ```bash
-mv ~/Downloads/gk /usr/local/bin/gk
-```
+Welcome to GitKraken CLI, a premium CLI experience for managing multiple repositories with familiar GIT CLI commands
 
 Or create a new directory, move the binary and add it to $PATH:
 
@@ -158,7 +157,9 @@ mv ~/Downloads/gk "$HOME/cli"
 export PATH="$HOME/gk:$PATH"
 ```
 
-You can also [download][releases page] your corresponding package (`.deb`, `.rpm`) and install it with:
+AUTHENTICATING
+  auth         Authenticate with the GitKraken platform
+  provider     Add or remove provider tokens
 
 ```bash
 sudo apt install ./gk.deb
